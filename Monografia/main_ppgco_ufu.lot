@@ -1,0 +1,18 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {table}{\numberline {1}{\ignorespaces Comparação dos trabalhos correlatos relacionados ao aprendizado profundo e visão computacional.}}{28}{table.caption.61}%
+\contentsline {table}{\numberline {2}{\ignorespaces Configuração estrutural do modelo MobileNet-V1, utilizado neste estudo.}}{48}{table.caption.128}%
+\contentsline {table}{\numberline {3}{\ignorespaces Comparação estrutural dos diferentes modelos variantes da arquitetura \textit {ResNet}.}}{75}{table.caption.185}%
+\contentsline {table}{\numberline {4}{\ignorespaces Valores resultantes para cada modelo variante da arquitetura \textit {ResNet}, durante o teste de validação inicial. Importante ressaltar que o objetivo não foi avaliar o desempenho absoluto dos modelos, mas sim, sua tendência de aprendizado.}}{76}{table.caption.189}%
+\contentsline {table}{\numberline {5}{\ignorespaces Configuração estrutural dos modelos MobileNet-V1 e DenseNet.}}{78}{table.caption.190}%
+\contentsline {table}{\numberline {6}{\ignorespaces Valores resultantes do teste de validação, conduzido para os modelos \textit {DenseNet} e \textit {MobileNet-V1}.}}{78}{table.caption.191}%
+\contentsline {table}{\numberline {7}{\ignorespaces Configuração experimental do modelo \acs {VIT}. A nomenclatura dos parâmetros foi mantida em inglês para assegurar consistência com a terminologia utilizada no artigo original da arquitetura.}}{80}{table.caption.200}%
+\contentsline {table}{\numberline {8}{\ignorespaces Resultados do teste de validação conduzido com o modelo \acs {VIT}/B-16.}}{80}{table.caption.207}%
+\contentsline {table}{\numberline {9}{\ignorespaces Valores resultantes do treinamento conduzido com modelos variantes mais rasos da arquitetura \textit {ResNet}.}}{82}{table.caption.211}%
+\contentsline {table}{\numberline {10}{\ignorespaces Valores resultantes do treinamento conduzido com os modelos \textit {ResNet-18} e \textit {ResNet-34}, considerando um aumento no valor do \textit {Batch Size}.}}{84}{table.caption.213}%
+\contentsline {table}{\numberline {11}{\ignorespaces Resultados médios das últimas 15 épocas no treinamento conduzido com a modelo \textit {MobileNet-V1}}}{87}{table.caption.215}%
+\contentsline {table}{\numberline {12}{\ignorespaces Comparativo entre o modelo \textit {DenseNet-121} e o modelo customizado mais raso da \textit {DenseNet}.}}{88}{table.caption.217}%
+\contentsline {table}{\numberline {13}{\ignorespaces Resultados obtidos pelo treinamento conduzido com ambos os modelos baseados na arquitetura \textit {\textit {DenseNet}} (\textit {DenseNet-121} e \textit {DenseNet} Customizado)}}{89}{table.caption.220}%
+\contentsline {table}{\numberline {14}{\ignorespaces Média dos valores de acurácia e perda obtidos a cada intervalo de 100 épocas durante o treinamento da arquitetura \acs {VIT}.}}{91}{table.caption.230}%
+\contentsline {table}{\numberline {15}{\ignorespaces Média dos valores resultantes a cada 100 épocas do treinamento conduzido com a arquitetura \acs {VIT}, considerando a redução aplicada nas amostras para o conjunto de treino.}}{93}{table.caption.238}%
+\contentsline {table}{\numberline {16}{\ignorespaces Média dos valores resultantes a cada 100 épocas do treinamento conduzido com a arquitetura \acs {VIT}, considerando a divisão da base de dados 70/30\% para os conjuntos de treino e validação, respectivamente.}}{95}{table.caption.246}%
+\contentsline {table}{\numberline {17}{\ignorespaces Resultados agregados dos experimentos conduzidos com as diferentes arquiteturas de redes neurais.}}{98}{table.caption.253}%

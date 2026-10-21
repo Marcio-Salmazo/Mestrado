@@ -1,0 +1,45 @@
+\changetocdepth {4}
+\changetocdepth {2}
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{\chapternumberline {1}Introdução}{21}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivação}{23}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos}{24}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Hipótese}{25}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Revisão do Estado da Arte}{25}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Contribuições}{28}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Organização da Dissertação}{29}{section.1.6}%
+\contentsline {chapter}{\chapternumberline {2}Fundamentação Teórica}{33}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Processamento Digital de Imagens - \acs {PDI}}{33}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Aprendizado de Máquina}{35}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Aprendizado Baseado em Redes Neurais}{37}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Visão Computacional}{40}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Redes Neurais Convolucionais}{41}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Transformers e Vision Transformers}{47}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Transfer Learning}{56}{section.2.5}%
+\contentsline {section}{\numberline {2.6}TensorFlow}{58}{section.2.6}%
+\contentsline {chapter}{\chapternumberline {3}Metodologia de Desenvolvimento e Pesquisa}{63}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Organização e Manejo dos Grupos Experimentais}{63}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Protocolo para Indução de Dor}{65}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Aquisição da Base de Dados}{66}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Seleção das Arquiteturas de Classificação}{68}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Configuração Experimental}{69}{section.3.5}%
+\contentsline {chapter}{\chapternumberline {4}Experimentos e Análise dos Resultados}{73}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Experimento 1 - Implementação e Validação dos Modelos Selecionados}{74}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Modelos da Arquitetura \textit {ResNet}}{74}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Arquiteturas \textit {MobileNet} e \textit {DenseNet}}{77}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Arquitetura Vision Transformer}{78}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Experimento 2 - Treinamento Conduzido com os Modelos da Arquitetura \textit {ResNet}}{81}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Utilização de Variantes Rasas da \textit {ResNet}}{82}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Avaliação do Impacto do \textit {Batch Size}}{83}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Teste Final com a Arquitetura \textit {ResNet}}{84}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Experimento 3 - Treinamento Conduzido com a Arquitetura \textit {MobileNet}}{86}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Experimento 4 - Treinamento Conduzido com a Arquitetura \textit {DenseNet}}{87}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Experimento 5 - Utilização da Arquitetura \textit {Vision Transformer}}{90}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Treinamento Conduzido com uma Redução no Conjunto de Treino}{92}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Treinamento Conduzido com uma Alteração na Divisão da Base de Dados}{94}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Considerações Finais}{96}{subsection.4.5.3}%
+\contentsline {chapter}{\chapternumberline {5}Conclusão}{101}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Principais Contribuições}{102}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Discussões e Sugestões para Trabalhos Futuros}{103}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Contribuições em Produção Bibliográfica}{104}{section.5.3}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{107}{section*.270}%

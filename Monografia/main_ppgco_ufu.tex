@@ -1,0 +1,295 @@
+%% main_ppgco_ufu.tex v1.0, Lásaro Camargos e Denise Guliato
+% adaptado de modeloABNT2.tex, v1.0 athila 
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% eesc: Modelo de Trabalho Acadêmico (tese de doutorado, dissertação de
+% mestrado e trabalhos monográficos em geral) em conformidade com 
+% ABNT NBR 14724:2011. Esta classe estende as funcionalidades da classe
+% abnTeX2 elaborada de forma a adequar os parâmetros exigidos pelas 
+% normas USP e do departamento de elétrica da Escola de Engenharia 
+% de São Carlos - USP.
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+% ------------------------------------------------------------------------
+% Opções:
+% 	tesedr:     Formata documento para tese de doutorado
+%	qualidr:    Formata documento para qualificação de doutorado
+% 	dissertmst: Formata documento para dissertação de mestrado
+% 	qualimst:   Formata documento para qualificação de mestrado
+% ------------------------------------------------------------------------
+
+\documentclass[dissertmst]{ppgco}
+
+%Não altere o comando seguinte. O título de seu trabalho será especificado mais adiante.
+\title{Template de Monografia do PPGCO}
+%\let\cleardoublepage\clearpage
+
+% Pacotes essenciais
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[printonlyused]{acronym}
+
+% Tipografia
+\usepackage{microtype}
+
+% Matemática
+\usepackage{amsmath}
+
+% Figuras
+\usepackage{graphicx}
+
+% Tabelas
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{makecell}
+\usepackage{graphicx}
+
+% Algoritmos
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% Índices
+\usepackage{makeidx}
+\usepackage{nomencl}
+
+% Qualidade
+\usepackage{indentfirst}
+\usepackage{float}
+
+% Usado pela Ficha catalográfica
+\usepackage{lastpage}	
+
+% Define um padrão para 'caption' em imagens e tabelas
+\usepackage[font=small,labelfont=bf]{caption} 		
+
+% Links (sempre por último)
+\usepackage{hyperref}
+
+% Caminho pré definido de imagens
+\graphicspath{
+	{figuras/}
+	{figuras/figs_fundamentacao/}
+	{figuras/figs_metodologia/}
+	{figuras/figs_experimentos/}
+}
+
+\makeatletter
+
+\renewcommand{\printchapternonum}{%
+	\vspace*{-3cm}%
+}
+
+\makeatother
+
+% ==================================================================
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ==================================================================
+%
+% Título:
+%	1. Título em português
+%	2. Título em inglês
+\titulo{Avaliação de Dor em Camundongos com Redes Neurais e Visão Computacional}{Pain Assessment in Mice with Neural Networks and Computer Vision}
+%
+% Autor:
+%	1. Nome completo do autor
+%	2. Formato de nome para bibliografia
+\autor{Marcio Salmazo Ramos}{Sobrenome, Nome}
+%
+% Cidade
+\local{Uberlândia}
+% Ano de defesa
+\data{2025}
+% Área de concentração da pesquisa
+\areaconcentracao{Ciência da Computação}
+% Nome do orientador
+\orientador{Maurício Cunha Escarpinati}
+% Nome do coorientador
+\coorientador{Daniel Duarte Abdala}
+
+% ==================================================================
+% compila o indice
+% ==================================================================
+\makeindex
+
+% ==================================================================
+% Compila a lista de abreviaturas e siglas
+% ==================================================================
+
+\makenomenclature
+
+% ==================================================================
+% Inserir ficha catalográfica
+% ==================================================================
+%
+% Caso o comando \inserirfichacatalografica seja definido, a %ficha catalográfica
+% será inserida atrás da folha de rosto. Caso contrário a página será deixada em
+% branco.
+%
+% CUIDADO: Esta opção deve ser preenchida antes do comando \maketitle
+% entre em contato com a biblioteca para obter a sua ficha catalográfica em arquivo pdf.  
+% Essa folha só será inserida no documento após a sua defesa.
+
+\inserirfichacatalografica{auxiliares/FichaCatalografica.pdf}
+
+% ==================================================================
+% Inserir folha de aprovação
+% ==================================================================
+
+% Caso o comando \inserirfolhaaprovacao seja definido, a a folha de aprovação
+% será inserida. Além disso, conforme Resolução CoPGr 5890, as informações 
+% de rodapé são inseridas apropriadamente na folha de rosto.
+%
+% CUIDADO: Esta opção deve ser preenchida antes do comando \maketitle
+% baseie-se no modelo desse documento e gere a sua folha de %rosto em arquivo pdf.
+
+\inserirfolhaaprovacao{auxiliares/Ata.pdf}
+
+% ==================================================================
+% Início do documento
+% ==================================================================-
+\begin{document}
+
+\clearpage
+\pagenumbering{arabic}
+\sloppy
+
+% ----------------------------------------------------------
+% Insere Capa, Folha de rosto, Ficha catalográfica 
+% (se inserida) e folha de aprovação (se inserida).
+% ----------------------------------------------------------
+\pretextual
+\maketitle
+
+
+% ----------------------------------------------------------
+% Dedicatória
+% ----------------------------------------------------------
+\imprimirdedicatoria{
+		Este trabalho é dedicado inteiramente a Deus.\\
+		Por Sua graça, direção e providência, tudo se torna possível.
+	}
+
+% ----------------------------------------------------------
+% Agradecimentos
+% ----------------------------------------------------------
+\imprimiragradecimentos{
+	
+	Agradeço primeiramente a Deus, por sua presença constante em minha vida, pelas bênçãos concedidas ao longo desta trajetória e pela força necessária para superar os desafios encontrados durante a realização deste trabalho. Sua providência e cuidado foram fundamentais para que eu pudesse chegar até este momento.
+	
+	Aos meus pais, agradeço imensamente pelo amor, apoio e incentivo ao longo de toda minha formação acadêmica e pessoal. Em todos os momentos, especialmente nos mais difíceis, eles foram fonte de motivação, confiança e inspiração para que eu continuasse seguindo em frente. Por isso, digo com toda a convicção que eles foram e continuam sendo o meu porto seguro.
+	
+	Estendo também os agradecimentos aos meus orientadores, pela paciência, disponibilidade e pelos valiosos ensinamentos compartilhados durante o desenvolvimento desta pesquisa, inclusive, por despertaram em mim o interesse pela pesquisa científica. Adicionalmente, agradeço a todos os professores que fizeram parte da minha trajetória acadêmica. Cada disciplina ministrada, cada conselho oferecido e cada oportunidade de aprendizado contribuíram diretamente para a construção do conhecimento que me permitiu alcançar esta etapa. 
+	
+	Agradeço ainda aos profissionais e colaboradores que contribuíram para a realização desta pesquisa, em especial às equipes envolvidas na coleta, organização e validação dos dados utilizados nos experimentos. Também expresso minha gratidão à Faculdade de Computação da Universidade Federal de Uberlândia (FACOM/UFU) e ao Programa de Pós-Graduação em Ciência da Computação, pela estrutura, apoio e oportunidades oferecidas ao longo do mestrado. 
+	
+	Por fim, também sou grato pelos desafios encontrados ao longo do curso, os quais contribuíram significativamente para meu amadurecimento pessoal, profissional e acadêmico.
+	
+}
+
+% ----------------------------------------------------------
+% RESUMO e ABSTRACT
+% ----------------------------------------------------------
+\begin{resumo}{Avaliação da dor, Redes Neurais Convolucionais, Visão Computacional, Pesquisa Biomédica}
+
+
+    Os camundongos constituem um dos principais modelos experimentais utilizados em pesquisas biomédicas, tornando a avaliação adequada do bem-estar animal um requisito fundamental para a condução ética dos experimentos e para a obtenção de resultados científicos confiáveis e reprodutíveis. Nesse contexto, a identificação da dor representa um desafio importante, uma vez que os animais são incapazes de comunicar diretamente suas sensações, tornando sua avaliação dependente da observação de alterações comportamentais e fisiológicas.
+
+    Buscando mitigar a subjetividade associada à avaliação humana, diferentes metodologias foram propostas ao longo dos anos, dentre as quais se destaca a \textit{Mouse Grimace Scale}, baseada na análise de alterações em expressões faciais associadas à dor nos camundongos. Apesar de ser amplamente utilizada, sua aplicação ainda depende significativamente da interpretação de observadores humanos, tornando o processo suscetível a vieses e variações entre avaliadores.
+    
+    Neste contexto, o presente trabalho investiga a aplicação de técnicas de aprendizado profundo e visão computacional para a avaliação automatizada da dor em camundongos com base nos parâmetros definidos pela \textit{Mouse Grimace Scale}. Para isso, foi desenvolvido um pipeline experimental abrangendo as etapas de aquisição, organização e pré-processamento das imagens, construção da base de dados e treinamento supervisionado dos modelos de classificação.
+    
+    Foram avaliadas arquiteturas convolucionais amplamente consolidadas na literatura, incluindo variantes das famílias \textit{ResNet}, \textit{MobileNet} e \textit{DenseNet}. Adicionalmente, foram conduzidos experimentos com a arquitetura \textit{Vision Transformer}, baseada em mecanismos de atenção, visando comparar seu desempenho com abordagens convolucionais e investigar sua capacidade de modelar relações globais presentes nas imagens. 
+    
+    De modo geral, os resultados obtidos reforçaram a viabilidade da aplicação de técnicas de aprendizado profundo no campo de visão computacional para avaliação automatizada da dor em animais, contribuindo para a redução da subjetividade das avaliações humanas e para o desenvolvimento de ferramentas capazes de promover maior padronização, escalabilidade e reprodutibilidade em pesquisas biomédicas. Além das contribuições para as áreas de visão computacional e inteligência artificial, o estudo apresenta potencial impacto no bem-estar animal e no aprimoramento de protocolos experimentais.
+ 
+
+\end{resumo}
+
+
+\begin{abstract}{Pain Assessment, Convolutional Neural Networks, Computer Vision, Biomedical Research}
+
+    Mice are among the most widely used animal models in biomedical research, making the assessment of animal welfare a fundamental requirement for both the ethical conduct of experiments and the generation of reliable and reproducible scientific results. Therefore, pain assessment remains a significant challenge, as animals cannot directly communicate their sensations, requiring researchers to rely on behavioral and physiological indicators to infer the presence of pain.
+    
+    To reduce the subjectivity inherent to human evaluation, several assessment methods have been proposed over the years, among which the \textit{Mouse Grimace Scale} has emerged as one of the most widely adopted approaches. This scale evaluates pain through changes in facial expressions associated with painful states in mice. Despite its widespread use, the method still relies heavily on human interpretation, making assessments susceptible to observer bias and inter-rater variability.
+    
+    Motivated by these limitations, this work investigates the application of deep learning and computer vision techniques for automated pain assessment in mice based on the facial action units defined by the \textit{Mouse Grimace Scale}. To this end, a complete experimental pipeline was developed, encompassing image acquisition, dataset organization, image preprocessing, dataset construction, and supervised training of classification models.
+    
+    Experiments were conducted using well-established convolutional neural network architectures, including variants of the \textit{ResNet}, \textit{MobileNet}, and \textit{DenseNet} families. In addition, the \textit{Vision Transformer} (ViT) architecture was evaluated to investigate the effectiveness of attention-based mechanisms for modeling global image relationships and to compare its performance with traditional convolutional approaches.
+    
+    Overall, the findings demonstrate the feasibility of applying deep learning techniques to automated pain assessment in laboratory animals, contributing to the reduction of subjectivity in human evaluations and supporting the development of computational tools capable of improving standardization, scalability, and reproducibility in biomedical research. Beyond its contributions to computer vision and artificial intelligence, this work also presents potential benefits for animal welfare and the refinement of experimental protocols.
+  
+\end{abstract}
+
+
+% ----------------------------------------------------------
+% inserir lista de ilustrações
+% ----------------------------------------------------------
+\listailustracoes
+
+% ----------------------------------------------------------
+% inserir lista de tabelas
+% ----------------------------------------------------------
+\listatabelas
+
+% ----------------------------------------------------------
+% inserir lista de abreviaturas e siglas
+% ----------------------------------------------------------
+\listasiglas{
+	auxiliares/abreviaturas
+	}
+
+% ----------------------------------------------------------
+% inserir o sumario
+% ----------------------------------------------------------
+\sumario
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\mainmatter
+
+% ----------------------------------------------------------
+% Introdução
+% ----------------------------------------------------------
+\include{cap_introducao/introducao}
+
+% ----------------------------------------------------------
+% Fundamentação
+% ----------------------------------------------------------
+\include{cap_fundamentacao/fundamentacao}
+
+% ----------------------------------------------------------
+% Proposta de pesquisa
+% ----------------------------------------------------------
+\include{cap_metodologia/metodologia}
+
+% ----------------------------------------------------------
+% Experimentos e avaliação dos resultados
+% ----------------------------------------------------------
+\include{cap_experimentos/experimentos}
+
+% ----------------------------------------------------------
+% Finaliza a parte no bookmark do PDF, para que se inicie o bookmark na raiz
+% ----------------------------------------------------------
+%\bookmarksetup{startatroot}% 
+
+% ----------------------------------------------------------
+% Conclusão
+% ----------------------------------------------------------
+\include{cap_conclusao/conclusao}
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{referencias}
+
+\end{document}

@@ -1,0 +1,361 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Abadi et al. 2016]{abadi2016tensorflow}
+\abntrefinfo{Abadi et al.}{ABADI et al.}{2016}
+{ABADI, M.; AGARWAL, A.; BARHAM, P.; BREVDO, E.; CHEN, Z.; CITRO, C.; CORRADO,
+  G.~S.; DAVIS, A.; DEAN, J.; DEVIN, M.; GHEMAWAT, S.; GOODFELLOW, I.; HARP,
+  A.; IRVING, G.; ISARD, M.; JIA, Y.; JOZEFOWICZ, R.; KAISER, L.; KUDLUR, M.;
+  LEVENBERG, J.; MANE, D.; MONGA, R.; MOORE, S.; MURRAY, D.; OLAH, C.;
+  SCHUSTER, M.; SHLENS, J.; STEINER, B.; SUTSKEVER, I.; TALWAR, K.; TUCKER, P.;
+  VANHOUCKE, V.; VASUDEVAN, V.; VIEGAS, F.; VINYALS, O.; WARDEN, P.;
+  WATTENBERG, M.; WICKE, M.; YU, Y.; ZHENG, X. Tensorflow: Large-scale machine
+  learning on heterogeneous distributed systems.
+\textbf{arXiv preprint arXiv:1603.04467}, 2016.
+Dispon{\'\i}vel em: \url{https://doi.org/10.48550/arXiv.1603.04467}.}
+
+\bibitem[Abiodun et al. 2018]{abiodun2018}
+\abntrefinfo{Abiodun et al.}{ABIODUN et al.}{2018}
+{ABIODUN, O.~I.; JATAN, A.; OMOLARA, A.~E.; DADA, K.~V.; MOHAMED, N.~A.;
+  ARSHAD, H. State-of-the-art in artificial neural network applications: A
+  survey.
+\textbf{Heliyon}, Cell Press, v.~4, 2018.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1016/j.heliyon.2018.e00938}.}
+
+\bibitem[Alqahtani 2020]{Alqahtani2020}
+\abntrefinfo{Alqahtani}{ALQAHTANI}{2020}
+{ALQAHTANI, H. \textbf{Context pre-modeling: an empirical analysis for
+  classification based user-centric context-aware predictive modeling}. 2020.
+Acesso em: 21 out. 2025.
+Dispon{\'\i}vel em:
+  \url{https://www.researchgate.net/figure/An-example-of-neural-network-with-multiple-hidden-layers\_fig2\_343177704}.}
+
+\bibitem[Barman et al. 2024]{barman2024}
+\abntrefinfo{Barman et al.}{BARMAN et al.}{2024}
+{BARMAN, U.; SARMA, P.; RAHMAN, M.; DEKA, V.; LAHKAR, S.; SHARMA, V.; SAIKIA,
+  M.~J. Vit-smartagri: Vision transformer and smartphone-based plant disease
+  detection for smart agriculture.
+\textbf{Agronomy}, MDPI, v.~14, 2024.
+Dispon{\'\i}vel em: \url{https://doi.org/10.3390/agronomy14020327}.}
+
+\bibitem[{Brasil. Ministério da Ciência, Tecnologia, Inovações e
+  Comunicações} e {Conselho Nacional de Controle de Experimentação Animal}
+  2019]{concea2019}
+\abntrefinfo{{Brasil. Ministério da Ciência, Tecnologia, Inovações e
+  Comunicações} e {Conselho Nacional de Controle de Experimentação
+  Animal}}{{Brasil. Ministério da Ciência, Tecnologia, Inovações e
+  Comunicações}; {Conselho Nacional de Controle de Experimentação
+  Animal}}{2019}
+{{Brasil. Ministério da Ciência, Tecnologia, Inovações e Comunicações};
+  {Conselho Nacional de Controle de Experimentação Animal}. \textbf{Guia
+  brasileiro de produção, manutenção ou utilização de animais em
+  atividades de ensino ou pesquisa científica: Fascículo 2: Roedores e
+  lagomorfos mantidos em instalações de instituições de ensino ou pesquisa
+  científica}. Brasília: Ministério da Ciência, Tecnologia, Inovações e
+  Comunicações, 2019.
+ISBN 978-85-88063-76-1.}
+
+\bibitem[Bryda 2013]{Bryda2013}
+\abntrefinfo{Bryda}{BRYDA}{2013}
+{BRYDA, E.~C. The mighty mouse: the impact of rodents on advances in biomedical
+  research.
+\textbf{Missouri Medicine}, v.~110, n.~3, p. 207--211, 2013.}
+
+\bibitem[Carbone 2011]{Carbone2011}
+\abntrefinfo{Carbone}{CARBONE}{2011}
+{CARBONE, L. Pain in laboratory animals: The ethical and regulatory
+  imperatives.
+\textbf{PLoS ONE}, v.~6, 2011.}
+
+\bibitem[Chorilli et al. 2007]{chorilli2007}
+\abntrefinfo{Chorilli et al.}{CHORILLI et al.}{2007}
+{CHORILLI, M.; MICHELIN, D.~C.; SALGADO, H. R.~N. Animais de laboratório: o
+  camundongo.
+\textbf{Revista de Ciências Farmacêuticas Básica e Aplicada}, v.~28, n.~1,
+  p. 11--23, 2007.
+ISSN 1808-4532.}
+
+\bibitem[Colby et al. 2007]{Colby2007}
+\abntrefinfo{Colby et al.}{COLBY et al.}{2007}
+{COLBY, L.~A.; TURNER, P.~V.; VASBINDER, M.~A. Training strategies for
+  laboratory animal veterinarians: Challenges and opportunities.
+\textbf{ILAR Journal}, Oxford University Press, v.~48, n.~2, p. 143--159,
+  2007.}
+
+\bibitem[Dosovitskiy et al. 2020]{dosovitskiy2020vit}
+\abntrefinfo{Dosovitskiy et al.}{DOSOVITSKIY et al.}{2020}
+{DOSOVITSKIY, A.; BEYER, L.; KOLESNIKOV, A.; WEISSENBORN, D.; ZHAI, X.;
+  UNTERTHINER, T.; DEHGHANI, M.; MINDERER, M.; HEIGOLD, G.; GELLY, S.;
+  USZKOREIT, J.; HOULSBY, N. An image is worth 16x16 words: Transformers for
+  image recognition at scale.
+\textbf{arXiv preprint arXiv:2010.11929}, 2020.
+Dispon{\'\i}vel em: \url{https://arxiv.org/abs/2010.11929}.}
+
+\bibitem[Faouzi 2023]{faouzi2023}
+\abntrefinfo{Faouzi}{FAOUZI}{2023}
+{FAOUZI, J. \textbf{Machine Learning for Brain Disorders}. Springer, 2023.
+  v.~197.  (Neuromethods, v.~197). Dispon{\'\i}vel em:
+  \url{https://hal.science/hal-04225627}.}
+
+\bibitem[Fiorentini et al. 2022]{fiorentini2022}
+\abntrefinfo{Fiorentini et al.}{FIORENTINI et al.}{2022}
+{FIORENTINI, G.; ERTUGRUL, I.~O.; SALAH, A.~A. \textbf{Fully-attentive and
+  interpretable: vision and video vision transformers for pain detection}.
+  Reserarch Gate, 2022.
+Dispon{\'\i}vel em: \url{https://doi.org/10.48550/arXiv.2210.15769}.}
+
+\bibitem[Gonzalez 2010]{gonzalez2010}
+\abntrefinfo{Gonzalez}{GONZALEZ}{2010}
+{GONZALEZ, R.~C. \textbf{Digital Image Processing}. 3. ed. [S.l.]: Pearson
+  Education do Brasil Ltda, 2010.
+ISBN 978-85-8143-586-2.}
+
+\bibitem[{Google Research} 2026]{vision_transformer_google}
+\abntrefinfo{{Google Research}}{{Google Research}}{2026}
+{{Google Research}. \textbf{Vision Transformer and MLP-Mixer Architectures}.
+  2026. \url{https://github.com/google-research/vision_transformer}.
+Acessado em: 15 maio 2026.}
+
+\bibitem[Hastie et al. 2009]{hastie2009}
+\abntrefinfo{Hastie et al.}{HASTIE et al.}{2009}
+{HASTIE, T.; TIBSHIRANI, R.; FRIEDMAN, J. \textbf{The Elements of Statistical
+  Learning}. Springer, 2009. Dispon{\'\i}vel em:
+  \url{https://doi.org/10.1007/978-0-387-84858-7}.}
+
+\bibitem[He et al. 2016]{he2016}
+\abntrefinfo{He et al.}{HE et al.}{2016}
+{HE, K.; ZHANG, X.; REN, S.; SUN, J. Deep residual learning for image
+  recognition.
+p. 770--778, 2016.
+Dispon{\'\i}vel em: \url{https://doi.org/10.48550/arXiv.1512.03385}.}
+
+\bibitem[Howard et al. 2017]{Howard2017}
+\abntrefinfo{Howard et al.}{HOWARD et al.}{2017}
+{HOWARD, A.~G.; ZHU, M.; CHEN, B.; KALENICHENKO, D.; WANG, W.; WEYAND, T.;
+  ANDREETTO, M.; ADAM, H. Mobilenets: Efficient convolutional neural networks
+  for mobile vision applications.
+\textbf{arXiv preprint arXiv:1704.04861}, 2017.}
+
+\bibitem[Huang et al. 2017]{Huang2017}
+\abntrefinfo{Huang et al.}{HUANG et al.}{2017}
+{HUANG, G.; LIU, Z.; MAATEN, L. V.~D.; WEINBERGER, K.~Q. Densely connected
+  convolutional networks. In:  \textbf{Proceedings of the IEEE Conference on
+  Computer Vision and Pattern Recognition (CVPR)}. [S.l.: s.n.], 2017.}
+
+\bibitem[Huang 2023]{Huang2023}
+\abntrefinfo{Huang}{HUANG}{2023}
+{HUANG, Z. \textbf{Self-Supervised Dementia Prediction From MRI Scans With
+  Metadata Integration}. 2023.
+Acesso em: 21 out. 2025.
+Dispon{\'\i}vel em:
+  \url{https://www.researchgate.net/figure/sion-Transformer-architecture-figure-from-the-original-paper-DBK-20\_fig1\_374982152}.}
+
+\bibitem[Jain et al. 1999]{jain1999}
+\abntrefinfo{Jain et al.}{JAIN et al.}{1999}
+{JAIN, A.~K.; MURTY, M.~N.; J., F.~P. Data clustering: a review.
+\textbf{ACM Computing Surveys}, ACM, v.~3, p. 264--323, 1999.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1145/331499.331504}.}
+
+\bibitem[Jia et al. 2021]{jia2021cnn_palmprint}
+\abntrefinfo{Jia et al.}{JIA et al.}{2021}
+{JIA, W.; GAO, J.; XIA, W.; ZHAO, Y.; MIN, H.; LU, J.-T. A performance
+  evaluation of classic convolutional neural networks for 2d and 3d palmprint
+  and palm vein recognition.
+\textbf{International Journal of Automation and Computing}, v.~18, n.~1, p.
+  18--44, 2021.
+Dispon{\'\i}vel em:
+  \url{https://www.mi-research.net/en/article/id/26ab6e4c-9bcf-4fbd-82b3-41af68335856}.}
+
+\bibitem[Jia et al. 2014]{jia2014caffe}
+\abntrefinfo{Jia et al.}{JIA et al.}{2014}
+{JIA, Y.; SHELHAMER, E.; DONAHUE, J.; KARAYEV, S.; LONG, J.; GIRSHICK, R.;
+  GUADARRAMA, S.; DARRELL, T. Caffe: Convolutional architecture for fast
+  feature embedding. In:  \textbf{Proceedings of the 22nd ACM International
+  Conference on Multimedia}. [s.n.], 2014. p. 675--678. Dispon{\'\i}vel em:
+  \url{https://arxiv.org/abs/1408.5093}.}
+
+\bibitem[Jiang 2024]{Jiang2024}
+\abntrefinfo{Jiang}{JIANG}{2024}
+{JIANG, W. \textbf{A traffic and road signal recognition method through deep
+  learning}. 2024.
+Acesso em: 21 out. 2025.
+Dispon{\'\i}vel em:
+  \url{https://www.researchgate.net/figure/How-a-convolution-layer-is-utilized\_fig1\_382297179}.}
+
+\bibitem[Karamitsos et al. 2021]{karamitsos2021}
+\abntrefinfo{Karamitsos et al.}{KARAMITSOS et al.}{2021}
+{KARAMITSOS, I.; SLADJI, I.; MODAK, S. A modified cnn network for automatic
+  pain identification using facial expressions.
+\textbf{Journal of Software Engineering and Applications}, Scientific Research
+  Publishing, v.~14, p. 400--417, 2021.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1371/journal.pone.0258672}.}
+
+\bibitem[Keskar et al. 2016]{keskar2016large}
+\abntrefinfo{Keskar et al.}{KESKAR et al.}{2016}
+{KESKAR, N.~S.; MUDIGERE, D.; NOCEDAL, J.; SMELYANSKIY, M.; TANG, P. T.~P. On
+  large-batch training for deep learning: Generalization gap and sharp minima.
+\textbf{arXiv preprint arXiv:1609.04836}, 2016.}
+
+\bibitem[Kolda e Bader 2009]{kolda2009tensor}
+\abntrefinfo{Kolda e Bader}{KOLDA; BADER}{2009}
+{KOLDA, T.~G.; BADER, B.~W. Tensor decompositions and applications.
+\textbf{SIAM Review}, v.~51, n.~3, p. 455--500, 2009.
+Dispon{\'\i}vel em: \url{https://www.kolda.net/publication/TensorReview.pdf}.}
+
+\bibitem[Kumar et al. 2022]{kumar2022finetuning}
+\abntrefinfo{Kumar et al.}{KUMAR et al.}{2022}
+{KUMAR, A.; RAGHUNATHAN, A.; JONES, R.; MA, T.; LIANG, P. Fine-tuning can
+  distort pretrained features and underperform out-of-distribution. In:  .
+  [s.n.], 2022. Dispon{\'\i}vel em:
+  \url{https://doi.org/10.48550/arXiv.2202.10054}.}
+
+\bibitem[Langford et al. 2010]{Langford2010}
+\abntrefinfo{Langford et al.}{LANGFORD et al.}{2010}
+{LANGFORD, D.~J.; BAILEY, A.~L.; CHANDA, M.~L.; CLARKE, S.~E.; DRUMMOND, T.~E.;
+  ECHOLS, S. Coding of facial expressions of pain in the laboratory mouse.
+\textbf{Nature Methods}, v.~7, n.~6, p. 447--449, 2010.}
+
+\bibitem[Lencioni et al. 2021]{lencioni2021}
+\abntrefinfo{Lencioni et al.}{LENCIONI et al.}{2021}
+{LENCIONI, G.~C.; SOUSA, R.~V.; SARDINHA, E. J.~S.; R., C.~R.; ZANELLA, A.~J.
+  Pain assessment in horses using automatic facial expression recognition
+  through deep learning-based modeling.
+\textbf{Plos one}, 2021.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1371/journal.pone.0258672}.}
+
+\bibitem[Masters e Luschi 2018]{masters2018revisiting}
+\abntrefinfo{Masters e Luschi}{MASTERS; LUSCHI}{2018}
+{MASTERS, D.; LUSCHI, C. Revisiting small batch training for deep neural
+  networks.
+\textbf{arXiv preprint arXiv:1804.07612}, 2018.}
+
+\bibitem[Mauricio et al. 2023]{mauricio2023}
+\abntrefinfo{Mauricio et al.}{MAURICIO et al.}{2023}
+{MAURICIO, J.; DOMINGUES, I.; BERNARDINO, J. Comparing vision transformers and
+  convolutional neural networks for image classification: A literature review.
+\textbf{Applied Sciences}, MDPI, v.~13, 2023.}
+
+\bibitem[Moritz 2024]{moritz2024}
+\abntrefinfo{Moritz}{MORITZ}{2024}
+{MORITZ, L. \textbf{AI Snippet of the Week: Supervised vs. Unsupervised
+  Learning}. 2024.
+Acesso em: 21 out. 2025.
+Dispon{\'\i}vel em:
+  \url{https://www.linkedin.com/posts/laura-moritz\_machinelearning-supervisedlearning-neuralnetworks-activity-7240316292115685376-ig44/}.}
+
+\bibitem[{National Research Council} 2011]{NRC2011Guide}
+\abntrefinfo{{National Research Council}}{{National Research Council}}{2011}
+{{National Research Council}. \textbf{Guide for the Care and Use of Laboratory
+  Animals}. 8. ed. Washington, DC: National Academies Press, 2011.}
+
+\bibitem[Pan e Yang 2010]{pan2010}
+\abntrefinfo{Pan e Yang}{PAN; YANG}{2010}
+{PAN, S.~J.; YANG, Q. A survey on transfer learning.
+\textbf{IEEE Transactions on Knowledge and Data Engineering}, IEEE, v.~22,
+  n.~10, p. 1345--1359, 2010.}
+
+\bibitem[Prabha 2021]{Prabha2021}
+\abntrefinfo{Prabha}{PRABHA}{2021}
+{PRABHA, A. \textbf{Intelligent Mask Detection Using Deep Learning Techniques}.
+  2021.
+Acesso em: 21 out. 2025.
+Dispon{\'\i}vel em:
+  \url{https://www.researchgate.net/figure/Transfer-Learning-Architecture-3-TensorFlow-API-The-object-detector-using-Tensorflow\_fig3\_351926911}.}
+
+\bibitem[Sneddon et al. 2014]{sneddon2014}
+\abntrefinfo{Sneddon et al.}{SNEDDON et al.}{2014}
+{SNEDDON, L.~U.; ELOOD, R.~W.; ADAMO, S.~A.; LEACH, M.~C. Defining and
+  assessing animal pain.
+\textbf{Animal Behaviour}, Elsevier, 2014.}
+
+\bibitem[Stack 2025]{Stack2025}
+\abntrefinfo{Stack}{STACK}{2025}
+{STACK, T. \textbf{A Comprehensive Guide to ResNet50: Architecture and
+  Implementation}. 2025.
+Acesso em: 21 out. 2025.
+Dispon{\'\i}vel em:
+  \url{https://www.thinkingstack.ai/blog/business-use-cases-11/a-comprehensive-guide-to-resnet50-architecture-and-implementation-56}.}
+
+\bibitem[Szeliski 2010]{szeliski2010}
+\abntrefinfo{Szeliski}{SZELISKI}{2010}
+{SZELISKI, R. \textbf{Computer Vision: Algorithms and Applications}.
+  Springer-Verlag, 2010.
+ISBN 978-1-84882-934-3. Dispon{\'\i}vel em: \url{http://szeliski.org/Book/}.}
+
+\bibitem[Tomar e L 2021]{tomar2021crowd}
+\abntrefinfo{Tomar e L}{TOMAR; L}{2021}
+{TOMAR, S.; L, K. \textbf{Crowd Counting Report}.
+[S.l.], 2021. Course project report.}
+
+\bibitem[Trigka 2025]{trigka2025}
+\abntrefinfo{Trigka}{TRIGKA}{2025}
+{TRIGKA, M. A comprehensive survey of deep learning approaches in image
+  processing.
+\textbf{sensors}, MDPI, v.~25, 2025.
+Dispon{\'\i}vel em: \url{https://doi.org/10.3390/s25020531}.}
+
+\bibitem[Turner et al. 2019]{turner2019pain}
+\abntrefinfo{Turner et al.}{TURNER et al.}{2019}
+{TURNER, P.~V.; PANG, D. S.~J.; LOFGREN, J.~L. A review of pain assessment
+  methods in laboratory rodents.
+\textbf{Comparative Medicine}, v.~69, n.~6, p. 451--467, 2019.
+Dispon{\'\i}vel em: \url{https://doi.org/10.30802/AALAS-CM-19-000042}.}
+
+\bibitem[Tuttle et al. 2018]{Tuttle2018DNNPain}
+\abntrefinfo{Tuttle et al.}{TUTTLE et al.}{2018}
+{TUTTLE, A.~H.; MOLINARO, M.~J.; JETHWA, J.~F.; SOTOCINAL, S.~G.; PRIETO,
+  J.~C.; STYNER, M.~A.; MOGIL, J.~S.; ZYLKA, M.~J. Deep neural networks to
+  assess pain from mouse facial expressions.
+\textbf{Molecular Pain}, SAGE Publications, v.~14, p.~1--9, 2018.
+Dispon{\'\i}vel em:
+  \url{https://journals.sagepub.com/doi/full/10.1177/1744806918763658}.}
+
+\bibitem[Vaswani et al. 2017]{vaswani2017}
+\abntrefinfo{Vaswani et al.}{VASWANI et al.}{2017}
+{VASWANI, A.; SHAZEER, N.; PARMAR, N.; USZKOREIT, J.; JONES, L.; GOMEZ, A.~N.;
+  KAISER, A.; POLOSUKHIN, I. Attention is all you need.
+\textbf{Advances in neural information processing systems}, v.~30, 2017.
+Dispon{\'\i}vel em: \url{https://arxiv.org/abs/1706.03762}.}
+
+\bibitem[Wehbe 2020]{Wehbe2020}
+\abntrefinfo{Wehbe}{WEHBE}{2020}
+{WEHBE, L. \textbf{HMM ( Markov Chain ) — Machine Learning Algorithms — 2}.
+  2020.
+Acesso em: 21 out. 2025.
+Dispon{\'\i}vel em:
+  \url{https://medium.com/@larawehbee/hmm-markov-chain-machine-learning-algorithms-2-39c62b00a198}.}
+
+\bibitem[Wheeler-Aceto et al. 1990]{WheelerAceto1990}
+\abntrefinfo{Wheeler-Aceto et al.}{WHEELER-ACETO et al.}{1990}
+{WHEELER-ACETO, H.; PORRECA, F.; COWAN, A. The rat paw formalin test:
+  comparison of noxious agents.
+\textbf{Pain}, v.~40, n.~2, p. 229--238, 1990.}
+
+\bibitem[Wotton et al. 2020]{Wotton2020}
+\abntrefinfo{Wotton et al.}{WOTTON et al.}{2020}
+{WOTTON, J.; PETERSON, E.; ANDERSON, L.; MURRAY, S.~A.; BRAUN, R.~E.; CHESLER,
+  E.~J.; K., W.~J.; KUMAR, V. Machine learning-based automated phenotyping of
+  inflammatory nocifensive behavior in mice.
+\textbf{Molecular Pain}, SAGE Publications, v.~16, p. 1--16, 2020.
+Dispon{\'\i}vel em:
+  \url{https://journals.sagepub.com/doi/full/10.1177/1744806920958596}.}
+
+\bibitem[Zamzmi et al. 2019]{Zamzmi2019}
+\abntrefinfo{Zamzmi et al.}{ZAMZMI et al.}{2019}
+{ZAMZMI, G.; ZHI, R.; KASTURI, R.; GOLDGOF, D.; ASHMEADE, T.; SUN, Y. A review
+  of automated pain assessment in infants: Features, classification tasks, and
+  databases.
+\textbf{IEEE Reviews in Biomedical Engineering}, v.~12, p. 1--21, 2019.}
+
+\bibitem[Zhao et al. 2024]{zhao2024}
+\abntrefinfo{Zhao et al.}{ZHAO et al.}{2024}
+{ZHAO, X.; ZHANG, Y.; XUMING, H.; DEVECI, M.; PARMAR, M. A review of
+  convolutional neural networks in computer vision.
+\textbf{Artificial Intelligence Review}, Springer, v.~57, 2024.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1007/s10462-024-10721-6}.}
+
+\end{thebibliography}

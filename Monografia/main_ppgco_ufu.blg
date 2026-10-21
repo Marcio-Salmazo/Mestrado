@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main_ppgco_ufu.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: cap_introducao/introducao.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: cap_fundamentacao/fundamentacao.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: cap_metodologia/metodologia.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: cap_experimentos/experimentos.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: cap_conclusao/conclusao.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+The style file: abntex2-alf.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Database file #1: abntex2-options.bib
+Database file #2: referencias.bib
+I was expecting a `,' or a `}'---line 237 of file referencias.bib
+ :   
+ :   doi = {https://doi.org/10.1177/1744806918763658}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 53 entries,
+            6714 wiz_defined-function locations,
+            1505 strings with 20888 characters,
+and the built_in function-call counts, 79172 in all, are:
+= -- 8453
+> -- 2038
+< -- 1830
++ -- 2634
+- -- 581
+* -- 5352
+:= -- 9638
+add.period$ -- 195
+call.type$ -- 54
+change.case$ -- 680
+chr.to.int$ -- 136
+cite$ -- 48
+duplicate$ -- 7428
+empty$ -- 3095
+format.name$ -- 3107
+if$ -- 16048
+int.to.chr$ -- 4
+int.to.str$ -- 3
+missing$ -- 1023
+newline$ -- 266
+num.names$ -- 240
+pop$ -- 1271
+preamble$ -- 1
+purify$ -- 220
+quote$ -- 0
+skip$ -- 7608
+stack$ -- 1
+substring$ -- 3187
+swap$ -- 2805
+text.length$ -- 77
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 3
+warning$ -- 0
+while$ -- 367
+width$ -- 0
+write$ -- 779
+(There was 1 error message)
