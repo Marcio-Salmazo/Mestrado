@@ -1,0 +1,23 @@
+COMANDOS:
+
+>> git fetch origin
+>> git reset --hard origin/main
+>> git clean -fd
+>> git status
+
+EXPLICAÇÕES:
+
+1)  comando git fetch origin baixa as atualizações (novos commits, branches e referências) 
+    do repositório remoto (origin) para a sua máquina. A principal vantagem é que ele faz 
+    isso sem alterar ou mesclar nada no seu código de trabalho atual, permitindo que seja
+    verificado o que a equipe fez com segurança.
+
+2) O comando git reset --hard origin/main sincroniza seu branch local exatamente com o estado 
+   do branch remoto (origin/main). Ele descarta permanentemente todas as suas alterações locais 
+   não confirmadas (e arquivos que não estavam no stage) e move o seu histórico para o mesmo 
+   ponto do servidor remoto.
+   
+   OBS: Usar com cuidado! Todas as alterações no seu diretório de trabalho 
+	serão perdidas sem possibilidade de recuperação.
+
+3) Por padrão, o comando git clean remove apenas arquivos não rastreados que não estejam ignorados.
